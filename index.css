@@ -1,0 +1,115 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    width: 400px;
+    height: 70vh;
+    background-color: rgb(152, 247, 248);
+    border-radius: 12px;
+    padding: 25px;
+}
+.searchbox{
+    font-size: 1.5rem;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    font-family: monospace;
+    font-size: 1rem;
+}
+.input{
+    font-size: 1.1rem;
+    color: black;
+    font-family: monospace;
+    padding: 10px;
+    outline-color: orange;
+    background-color: rgb(203, 245, 250);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.searchbox button{
+    background-color: rgb(203, 245, 250);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.weatherbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weatherimg{
+    width: 50%;
+}
+.weatherbody{
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.temperature{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.description{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-block: 40px;
+    gap: 2.8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.humidity{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+.wind{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+.visibility{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+.location-not-found{
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;    
+}
